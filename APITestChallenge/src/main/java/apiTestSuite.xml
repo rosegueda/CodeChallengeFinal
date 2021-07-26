@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Code Challenge" verbose="1" parallel="tests" thread-count="2">
+    <test name="All Tests" preserve-order="true">
+        <classes>
+            <class name="apiTests.DummyTestsAPI"/>
+        </classes>
+    </test>
+</suite>
